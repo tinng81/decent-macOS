@@ -1,0 +1,26 @@
+<%
+    function_keys = Array(1..12).map {|x| 'f'+x.to_s}
+    virtual_conditions = [JSON.parse(frontmost_application_if(
+        ['virtual_machine', 
+         'visual_studio_code',
+         'eclipse',
+         'jetbrains_ide',
+         'remote_desktop'
+        ]))]
+%>
+{
+    "title": "Function keys v2",
+    "rules": [
+        {
+            "description": "Use standard function keys in VM",
+            "manipulators": <%= each_key(
+                source_keys_list: function_keys,
+                dest_keys_list: function_keys,
+                from_optional_modifiers: ['command', 'control', 'option', 'shift'],
+                to_modifiers: ['fn'],
+                conditions: virtual_conditions,
+                as_json: true
+            ) %>
+        }
+    ]
+}
