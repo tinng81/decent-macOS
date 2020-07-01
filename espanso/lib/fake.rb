@@ -1,3 +1,5 @@
+# Courtesy of https://github.com/Govan/textexpander-faker
+
 require 'rubygems'
 require 'faker'
 

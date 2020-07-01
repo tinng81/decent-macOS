@@ -48,6 +48,7 @@ matches:
 
 
   # Fake Meta Generator
+  # Courtesy of https://github.com/Govan/textexpander-faker
   - trigger: ";fname"
     replace: "{{output}}"
     vars:
