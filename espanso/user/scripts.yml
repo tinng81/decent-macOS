@@ -1,0 +1,127 @@
+name: scripts
+parent: default
+
+matches:
+    # Get Current Finder Window PWD
+  - trigger: ";pwd"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "osascript -e 'tell application \"Finder\" to get quoted form of POSIX path of (target of front Finder window as text)'"
+  
+
+  # String Manipulation
+  - trigger: ";rev"
+    replace: "{{output}}"
+    passive_only: true
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo $0 | python -c \"import sys; print(''.join(reversed(''.join(sys.stdin))))\""
+  - trigger: ";toupper"
+    replace: "{{output}}"
+    passive_only: true
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo $0 | python -c \"import sys; print(''.join(sys.stdin).upper())\""
+  - trigger: ";tolower"
+    replace: "{{output}}"
+    passive_only: true
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo $0 | python -c \"import sys; print(''.join(sys.stdin).lower())\""
+  - trigger: ";totitle"
+    replace: "{{output}}"
+    passive_only: true
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo $0 | python -c \"import sys; print(''.join(sys.stdin).title())\""
+
+
+  # Fake Meta Generator
+  # Courtesy of https://github.com/Govan/textexpander-faker
+  - trigger: ";fname"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "ruby ~/fake.rb name"
+  - trigger: ";fzip"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "ruby ~/fake.rb zip"
+  - trigger: ";ftel"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "ruby ~/fake.rb tel"
+
+
+  # Current Timestamp
+  - trigger: ";now"
+    replace: "{{times}}"
+    vars:
+      - name: times
+        type: date
+        params:
+          format: "%H:%M %p"
+  - trigger: ";snow"
+    replace: "{{times}}"
+    vars:
+      - name: times
+        type: date
+        params:
+          format: "%H:%M:%S"
+  - trigger: ";today"
+    replace: "{{times}}"
+    vars:
+      - name: times
+        type: date
+        params:
+          format: "%d-%m-%Y"
+  - trigger: ";mtoday"
+    replace: "{{times}}"
+    vars:
+      - name: times
+        type: date
+        params:
+          format: "%m-%d-%Y"
+  - trigger: ";ytoday"
+    replace: "{{times}}"
+    vars:
+      - name: times
+        type: date
+        params:
+          format: "%F"
+
+
+  # Local & Global IP Addresses
+  - trigger: ";lip"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "ifconfig en0 | grep inet | grep -v inet6 | cut -d ' ' -f2"
+  - trigger: ";gip"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "curl icanhazip.com"
