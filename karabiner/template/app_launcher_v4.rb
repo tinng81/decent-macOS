@@ -24,7 +24,7 @@ def main
           generate_launcher_mode('i', [{ 'shell_command' => "open -a 'Music.app'" }]),
           generate_launcher_mode('a', [{ 'shell_command' => "open -a 'Activity Monitor.app'" }]),
           generate_launcher_mode('d', [{ 'shell_command' => "open -a 'Disk Utility.app'" }]),
-          generate_launcher_mode('v', [{ 'shell_command' => "open -a 'Visual Studio Code.app'" }]),
+          generate_launcher_mode('v', [{ 'shell_command' => "open -a 'VSCodium.app'" }]),
           generate_launcher_mode('t', [{ 'shell_command' => "open -a 'iTerm.app'" }]),
           generate_launcher_mode('m', [{ 'shell_command' => "open -a 'Spark.app'" }]),
           generate_launcher_mode('c', [{ 'shell_command' => "open -a 'Calendar.app'" }]),
