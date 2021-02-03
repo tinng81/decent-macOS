@@ -58,7 +58,7 @@ You can download Karabiner-Elements from [official site](https://karabiner-eleme
 
 > Remap all system diagnostics to Function Keys (F17, F18, F19)
 
-[![Remap all system diagnostics to Function Keys](../docs/assets/karabiner_remap_diagnostics.gif)](https://github.com/tinng81/decent-macOS/docs/karabiner_remap_diagnostics.gif)
+[![Remap all system diagnostics to Function Keys](../docs/assets/karabiner_remap_diagnostics.gif)](https://github.com/tinng81/decent-macOS/docs/assets/karabiner_remap_diagnostics.gif)
 
 ### tilde_spotlight.json (new)
 

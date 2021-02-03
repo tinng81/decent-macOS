@@ -1,0 +1,528 @@
+{
+  "BTTPresetCreatorNotes" : "",
+  "BTTPresetInfoURL" : "https:\/\/github.com\/tinng81\/decent-macOS\/bettertouchtool",
+  "BTTPresetName" : "Default",
+  "BTTPresetColor" : "7.609200, 101.963280, 190.230000, 255.000000",
+  "BTTGeneralSettings" : {
+    "BTTShowBTTWhenControlStripHidden" : false,
+    "BSTTopMissionControlTreshold" : 34,
+    "BTTDrawingAreaWidth" : 915,
+    "keyboardReenablesOnlyOnCenterTouch" : false,
+    "BSTLeftHalfBlock" : true,
+    "showMagicMouseTab" : true,
+    "BSTRightHalfBlock" : true,
+    "BSTSnapAreaDefaultHighlightColor" : "92.624286, 122.650411, 161.665578, 56.100000",
+    "BTTCMOnTop" : true,
+    "BSTAllowInsideDragSnap" : false,
+    "BTTFreeSpaceAfterBTT" : 20,
+    "BTTWindowSnappingHighPerformanceMode" : true,
+    "BTTShowControlStrip" : false,
+    "functionSlow" : false,
+    "BSTMemorySaver" : true,
+    "BTTRotateTrackpad" : false,
+    "scrollBlockWarningShown" : true,
+    "BTTCopyImgurURLToClipboard" : true,
+    "disableScrollingIf3" : true,
+    "BSTSnapAreaDefaultPictoDistanceFromLeft" : 0.10000000149011612,
+    "snapBottomRight" : true,
+    "BTTTouchBarAnimateGroups" : false,
+    "BTTTouchBarGlobalPosition" : 0,
+    "BTTEnableUsageLogging" : true,
+    "BTTForcedHidden" : false,
+    "SIRIMouseSpeed" : 1,
+    "BTTForceNormalClickPressure" : 150,
+    "BTTForceForceClickPressure4F" : 650,
+    "SIRIScrollSpeed" : 1,
+    "BTTTouchBarFontSize" : 15,
+    "BTTConvertedDevices" : true,
+    "SHOWEDHIDEMENUBARWARNING" : true,
+    "BTTTouchBarHapticFeedbackRelease" : "1",
+    "recognitionArea" : 0,
+    "disableScrollingIf2" : true,
+    "tpThreeFingerDoubleTapDelay" : 0.5,
+    "twoFingerSwipeRequiresSwipeToEdges" : false,
+    "BTTDrawingStopOnFlagsChanged" : true,
+    "cmdResize" : false,
+    "controlMove" : true,
+    "ctrlDisables" : false,
+    "shiftResize" : true,
+    "BSTSnapAreaDefaultDashedBorder" : false,
+    "BTTUseOldKeyboardShortcutImplementation" : false,
+    "BTTAllowThumbIfAllFingersArePlacedSimultaneously" : true,
+    "optResize" : true,
+    "showDrawingsTab" : true,
+    "BTTTouchBarVisible" : true,
+    "BTTSavedMousePosition" : "{643, 755}",
+    "BSTDontShowSnapAreasWhileModMoving" : 0,
+    "BTTDrawingAreaHeight" : 626,
+    "BTTLeaveSystemAppsInControlStrip" : true,
+    "BTTNumberOfStarts" : 8349,
+    "BTTTouchBarHapticFeedback" : "22",
+    "BSTLeaveGapAboveDock" : false,
+    "showKeyboardTab" : true,
+    "BTTHTTPServerPort" : 12345,
+    "snapBottomLeft" : true,
+    "BTRMessageChangeScrollDirection" : 0,
+    "shiftSlow" : false,
+    "BSTSnapAreaDefaultInvisible" : false,
+    "BTTDrawingRightMouse" : true,
+    "BTTMovePastedToTop" : true,
+    "BSTSnapAreaDefaultAnimationDuration" : 0.30000001192092896,
+    "BSTWindowGrabPosX" : 67,
+    "BSTCornerRoundness" : 19.954613095238095,
+    "BTTForceNormalClickPressure5F" : 200,
+    "pluginDictionary" : {
+      "1" : {
+        "Apple Remote Plugin" : {
+          "10" : "Play\/Pause, Holding (only on aluminum remote)",
+          "2" : "Up, Holding",
+          "3" : "Down",
+          "11" : "Menu",
+          "4" : "Down, Holding",
+          "5" : "Left",
+          "12" : "Menu, Holding",
+          "6" : "Left, Holding",
+          "13" : "Center",
+          "7" : "Right",
+          "8" : "Right, Holding",
+          "14" : "Center, Holding",
+          "1" : "Up",
+          "9" : "Play\/Pause (only on aluminum remote)"
+        }
+      }
+    },
+    "showBTTRemoteTab" : true,
+    "BTTForceForceClickPressure3F" : 700,
+    "BTTThreeFingerDragCompatibilityMode" : 1,
+    "mmZoomRepeatDelay" : 0.10000000000000001,
+    "BTTHideFomControlStripWhenOpen" : false,
+    "BTTDefaultTBIconWidth" : 22,
+    "BTTTiltWheelDelay" : 0.44999998807907104,
+    "BTTClipboardFrame" : "{{399, 131}, {1130, 721}}",
+    "cmdMove" : false,
+    "cmdSlow" : false,
+    "showSiriRemoteTab" : true,
+    "functionMove" : false,
+    "BTTIMGURDefault" : true,
+    "batteryWarning" : false,
+    "shiftDisables" : false,
+    "BTTDontUnhideTouchbarOnModifierChange" : "1",
+    "BTTDismissIfNothingToShow" : false,
+    "BTTForceNormalClickPressure4F" : 175,
+    "BTTTouchBarMouseModeClickBlock" : true,
+    "snapTopLeft" : true,
+    "BTTMinDrawingMovement" : 2,
+    "snapTopRight" : true,
+    "BSTSnapAreaDefaultBorderWidth" : 3,
+    "BSTEnableEnhancementCheck" : true,
+    "BTTPathSampleSize" : 100,
+    "BSTSnapAreaDefaultBorderColor" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BSTSnapAreaDefaultCornerRadius" : 20,
+    "twoFingerDoubleTapDelay" : 0.5,
+    "BSTMoveTreshold" : 2,
+    "BTTLastScreenshotDateFormat" : "yyyy-MM-dd HH.mm.ss a",
+    "BTTLastClamshellState" : false,
+    "BTTTwoFingerTipTapMinSpread" : 0.029999999999999999,
+    "showTouchBarTab" : true,
+    "BTTRemoteControlModelDetermined" : true,
+    "BTTForceForceHapticResponse" : 13,
+    "BSTSnapAreaDefaultPictoSize" : 0.69999998807907104,
+    "cornerSnap" : false,
+    "BSTWindowGrabPosY" : 10,
+    "BTTForceNormalClickPressure3F" : 150,
+    "BTTTouchBarSupportEnabled" : true,
+    "BTTForceForceClickPressure2F" : 700,
+    "useAppleRemotePlugin" : false,
+    "BTRMouseSpeed" : "1.000000",
+    "BTTForceNormalHapticResponse" : 12,
+    "BTTTouchBarKeepIconRatio" : true,
+    "BTTUseNewUI" : true,
+    "BTTFilterMagicMouseLeftRightEdge" : true,
+    "BTTDefaultTBIconHeight" : 22,
+    "BSTBrokenAPICheckDelay" : 0.20000000000000001,
+    "BTTDrawingStrokeWidth" : 4,
+    "BTTSelectedKeyboardTabIndex" : 0,
+    "BTTClipboardManagerMonitor" : 1,
+    "BTRScrollSpeed" : "1.000000",
+    "BTTMaxAllowedDrawingRotation" : 30,
+    "BTTTpFourFingerSwipeSensitivity" : 0.40000000000000002,
+    "BTTForceForceClickPressure" : 700,
+    "BTTEnablePalmRecognition" : true,
+    "oldScale" : 1,
+    "controlResize" : true,
+    "BTTDontRestartAfterSleep" : true,
+    "BTTForceNormalClickPressure2F" : 140,
+    "BSTGapAboveDock" : 2,
+    "BTTHideAllBehavior" : 1,
+    "BTTThreeFingerTipTapMinSpread" : 0.029999999999999999,
+    "BTTRecordConcealedTypes" : false,
+    "BTTDaysToKeepHistory" : 14,
+    "BTTTpThreeFingerSwipeSensitivity" : 0.29999999999999999,
+    "showTrackpadTab" : true,
+    "BTTTouchBarChecked" : true,
+    "BTTCMHideOnBlur" : true,
+    "slowSpeed" : 0,
+    "BTTFreeSpaceAfterESC" : 0,
+    "BTTHideGlobalTouchBarActionsAppSpecific" : 2,
+    "BTTTouchBarUseMonoSpacedFont" : "1",
+    "shiftMove" : false,
+    "showOtherTriggersTab" : true,
+    "nextMonitorMoveWarningShowed" : true,
+    "BSTPreventTopMissionControl" : true,
+    "BTTDrawingsRestoreMousePosition" : true,
+    "singleFingerTapRight" : 0.05000000074505806,
+    "singleFingerTapLeft" : 0.44999998807907104,
+    "BTTDidRegisterForUpdateStats" : "3.400",
+    "BTTHandleThumbsRestingOnTopEdgeAndCorners" : true,
+    "BTTLastScreenshotOptions" : "-t;;png;;\/Users\/Jason\/Desktop\/Screen Shot {datetime}.png;;",
+    "BSTBrokenAPICheckEnabled" : false,
+    "fnDisables" : false,
+    "BTTDrawingsHighlightStartPoint" : true,
+    "BSTIncreaseSnappingArea" : true,
+    "BTTRemoteVolumeButtonWarningShown" : true,
+    "BTTShowControlStripItem" : true,
+    "BTTAutoSwitchToOldKeyboardImplementation" : true,
+    "showNormalMiceTab" : true,
+    "BTTAlwaysShowPresetIndicators" : 1,
+    "BTTShowESCWhenControlStripHidden" : false,
+    "cmdDisables" : false,
+    "optMove" : true,
+    "BSTDisableSnapAreas" : false,
+    "BSTSnapAreaDefaultBackgroundColor" : "129.988836, 201.126536, 227.013985, 104.550000",
+    "BTTScreenshotOpenImgurInBrowser" : true,
+    "BTTForceForceClickPressure5F" : 600,
+    "optDisables" : false,
+    "BTTCMShowDockIcon" : false,
+    "BSTSnapAreaDefaultShowPictogram" : false,
+    "BSTSnapAreaDefaultPictoDistanceFromBottom" : 0.10000000149011612
+  },
+  "BTTPresetUUID" : "99A83610-8A8D-42A5-B12C-0DEFB31903A5",
+  "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "org.videolan.vlc",
+      "BTTAppName" : "VLC",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "VLC",
+      "BTTAppSpecificSettings" : {
+        "BTTDisableBTT" : 1
+      },
+      "BTTTriggers" : [
+
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "BT.G",
+      "BTTAppName" : "Global",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.apple.finder",
+      "BTTAppName" : "Finder",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Finder",
+      "BTTAppSpecificSettings" : {
+        "BTTTouchBarMode" : 2
+      },
+      "BTTTriggers" : [
+
+      ]
+    }
+  ],
+  "BTTPresetSnapAreas" : [
+    {
+      "BTTDisplayIsBuiltIn" : 1,
+      "BTTDisplayID" : 69734208,
+      "BTTDisplayIsMain" : 1,
+      "BTTDisplayModel" : 41021,
+      "BTTDisplayResolution" : "{1440, 900}",
+      "BTTDisplayScreenFrame" : "{{0, 0}, {1440, 900}}",
+      "BTTDisplayScreenSize" : "{285.74999570846558, 179.29411495433135}",
+      "BTTDisplaySerialNumber" : "0",
+      "BTTDisplayVendorID" : 1552,
+      "BTTDisplaySnappedDragpoints" : [
+        {
+          "BTTSnapAreaAnimationDuration" : 0.30000001192092896,
+          "BTTSnapAreaPreviewBorderColor" : "165.093435, 252.095968, 199.003955, 255.000000",
+          "BTTSnapAreaColor" : "130.000023, 200.999988, 226.999986, 76.500000",
+          "BTTSnapAreaFrame" : "{{854, 161}, {400, 230}}",
+          "BTTSnapAreaHighlightColor" : "92.624286, 122.650396, 161.665578, 56.099998",
+          "BTTSnapAreaPictogramDistanceFromLeft" : 0.10000000149011612,
+          "BTTSnapAreaPictogramDistanceFromBottom" : 0.10000000149011612,
+          "BTTSnapAreaPictogramSize" : 0.69999998807907104,
+          "BTTSnapAreaPreviewFrame" : "{{160, 49}, {1280, 750}}",
+          "BTTSnapAreaBorderWidth" : 4,
+          "BTTSnapAreaCornerRadius" : 20,
+          "BTTSnapAreaUUID" : "5571AD66-1E50-4298-8C43-5970101E686E",
+          "BTTSnapAreaShowsForApps" : [
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Microsoft OneNote.app",
+              "BTTSnapAreaAppName" : "Microsoft OneNote"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Skype.app",
+              "BTTSnapAreaAppName" : "Skype"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/MockFlow.app",
+              "BTTSnapAreaAppName" : "MockFlow"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/System\/Applications\/Notes.app",
+              "BTTSnapAreaAppName" : "Notes"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Safari.app",
+              "BTTSnapAreaAppName" : "Safari"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Microsoft Teams.app",
+              "BTTSnapAreaAppName" : "Microsoft Teams"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/GitHub Desktop.app",
+              "BTTSnapAreaAppName" : "GitHub Desktop"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Tower.app",
+              "BTTSnapAreaAppName" : "Tower"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Firefox.app",
+              "BTTSnapAreaAppName" : "Firefox"
+            }
+          ]
+        },
+        {
+          "BTTSnapAreaAnimationDuration" : 0.30000001192092896,
+          "BTTSnapAreaPreviewBorderColor" : "165.093435, 252.095968, 199.003955, 255.000000",
+          "BTTSnapAreaColor" : "146.279368, 210.790664, 232.671334, 76.500000",
+          "BTTSnapAreaFrame" : "{{985, 159}, {272, 339}}",
+          "BTTSnapAreaHighlightColor" : "92.624286, 122.650396, 161.665578, 56.099998",
+          "BTTSnapAreaPictogramDistanceFromLeft" : 0.10000000149011612,
+          "BTTSnapAreaPictogramDistanceFromBottom" : 0.10000000149011612,
+          "BTTSnapAreaPictogramSize" : 0.69999998807907104,
+          "BTTSnapAreaPreviewFrame" : "{{416, 48}, {1028, 830}}",
+          "BTTSnapAreaBorderWidth" : 4,
+          "BTTSnapAreaCornerRadius" : 20,
+          "BTTSnapAreaUUID" : "EC11455F-50CC-45E9-BB56-CCED91132580",
+          "BTTSnapAreaShowsForApps" : [
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Microsoft PowerPoint.app",
+              "BTTSnapAreaAppName" : "Microsoft PowerPoint"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Visual Studio Code.app",
+              "BTTSnapAreaAppName" : "Visual Studio Code"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Microsoft Excel.app",
+              "BTTSnapAreaAppName" : "Microsoft Excel"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Notion.app",
+              "BTTSnapAreaAppName" : "Notion"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Keynote.app",
+              "BTTSnapAreaAppName" : "Keynote"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Airmail.app",
+              "BTTSnapAreaAppName" : "Airmail"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Pages.app",
+              "BTTSnapAreaAppName" : "Pages"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Microsoft Outlook.app",
+              "BTTSnapAreaAppName" : "Microsoft Outlook"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Numbers.app",
+              "BTTSnapAreaAppName" : "Numbers"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Microsoft Word.app",
+              "BTTSnapAreaAppName" : "Microsoft Word"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/PDF Expert.app",
+              "BTTSnapAreaAppName" : "PDF Expert"
+            }
+          ]
+        },
+        {
+          "BTTSnapAreaAnimationDuration" : 0.30000001192092896,
+          "BTTSnapAreaPreviewBorderColor" : "165.093435, 252.095968, 199.003955, 255.000000",
+          "BTTSnapAreaColor" : "146.279368, 210.790664, 232.671334, 76.500000",
+          "BTTSnapAreaFrame" : "{{119, 159}, {460, 233}}",
+          "BTTSnapAreaHighlightColor" : "92.624286, 122.650396, 161.665578, 56.099998",
+          "BTTSnapAreaPictogramDistanceFromLeft" : 0.10000000149011612,
+          "BTTSnapAreaPictogramDistanceFromBottom" : 0.10000000149011612,
+          "BTTSnapAreaPictogramSize" : 0.69999998807907104,
+          "BTTSnapAreaPreviewFrame" : "{{0, 48}, {1000, 582}}",
+          "BTTSnapAreaBorderWidth" : 4,
+          "BTTSnapAreaCornerRadius" : 20,
+          "BTTSnapAreaUUID" : "D624D47A-1921-4CA5-A230-5F9C575BA8C9",
+          "BTTSnapAreaShowsForApps" : [
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/XtraFinderLoader.app",
+              "BTTSnapAreaAppName" : "XtraFinderLoader"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/System\/Library\/CoreServices\/Finder.app",
+              "BTTSnapAreaAppName" : "Finder"
+            }
+          ]
+        }
+      ],
+      "BTTDisplayDisplayedDragpoints" : [
+        {
+          "BTTSnapAreaAnimationDuration" : 0.30000001192092896,
+          "BTTSnapAreaPreviewBorderColor" : "165.093435, 252.095968, 199.003955, 255.000000",
+          "BTTSnapAreaColor" : "130.000023, 200.999988, 226.999986, 76.500000",
+          "BTTSnapAreaFrame" : "{{854, 161}, {400, 230}}",
+          "BTTSnapAreaHighlightColor" : "92.624286, 122.650396, 161.665578, 56.099998",
+          "BTTSnapAreaPictogramDistanceFromLeft" : 0.10000000149011612,
+          "BTTSnapAreaPictogramDistanceFromBottom" : 0.10000000149011612,
+          "BTTSnapAreaPictogramSize" : 0.69999998807907104,
+          "BTTSnapAreaPreviewFrame" : "{{160, 49}, {1280, 750}}",
+          "BTTSnapAreaBorderWidth" : 4,
+          "BTTSnapAreaCornerRadius" : 20,
+          "BTTSnapAreaUUID" : "5571AD66-1E50-4298-8C43-5970101E686E",
+          "BTTSnapAreaShowsForApps" : [
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Microsoft OneNote.app",
+              "BTTSnapAreaAppName" : "Microsoft OneNote"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Skype.app",
+              "BTTSnapAreaAppName" : "Skype"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/MockFlow.app",
+              "BTTSnapAreaAppName" : "MockFlow"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/System\/Applications\/Notes.app",
+              "BTTSnapAreaAppName" : "Notes"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Safari.app",
+              "BTTSnapAreaAppName" : "Safari"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Microsoft Teams.app",
+              "BTTSnapAreaAppName" : "Microsoft Teams"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/GitHub Desktop.app",
+              "BTTSnapAreaAppName" : "GitHub Desktop"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Tower.app",
+              "BTTSnapAreaAppName" : "Tower"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Firefox.app",
+              "BTTSnapAreaAppName" : "Firefox"
+            }
+          ]
+        },
+        {
+          "BTTSnapAreaAnimationDuration" : 0.30000001192092896,
+          "BTTSnapAreaPreviewBorderColor" : "165.093435, 252.095968, 199.003955, 255.000000",
+          "BTTSnapAreaColor" : "146.279368, 210.790664, 232.671334, 76.500000",
+          "BTTSnapAreaFrame" : "{{985, 159}, {272, 339}}",
+          "BTTSnapAreaHighlightColor" : "92.624286, 122.650396, 161.665578, 56.099998",
+          "BTTSnapAreaPictogramDistanceFromLeft" : 0.10000000149011612,
+          "BTTSnapAreaPictogramDistanceFromBottom" : 0.10000000149011612,
+          "BTTSnapAreaPictogramSize" : 0.69999998807907104,
+          "BTTSnapAreaPreviewFrame" : "{{416, 48}, {1028, 830}}",
+          "BTTSnapAreaBorderWidth" : 4,
+          "BTTSnapAreaCornerRadius" : 20,
+          "BTTSnapAreaUUID" : "EC11455F-50CC-45E9-BB56-CCED91132580",
+          "BTTSnapAreaShowsForApps" : [
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Microsoft PowerPoint.app",
+              "BTTSnapAreaAppName" : "Microsoft PowerPoint"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Visual Studio Code.app",
+              "BTTSnapAreaAppName" : "Visual Studio Code"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Microsoft Excel.app",
+              "BTTSnapAreaAppName" : "Microsoft Excel"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Notion.app",
+              "BTTSnapAreaAppName" : "Notion"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Keynote.app",
+              "BTTSnapAreaAppName" : "Keynote"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Airmail.app",
+              "BTTSnapAreaAppName" : "Airmail"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Pages.app",
+              "BTTSnapAreaAppName" : "Pages"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Microsoft Outlook.app",
+              "BTTSnapAreaAppName" : "Microsoft Outlook"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Numbers.app",
+              "BTTSnapAreaAppName" : "Numbers"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Microsoft Word.app",
+              "BTTSnapAreaAppName" : "Microsoft Word"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/PDF Expert.app",
+              "BTTSnapAreaAppName" : "PDF Expert"
+            }
+          ]
+        },
+        {
+          "BTTSnapAreaAnimationDuration" : 0.30000001192092896,
+          "BTTSnapAreaPreviewBorderColor" : "165.093435, 252.095968, 199.003955, 255.000000",
+          "BTTSnapAreaColor" : "146.279368, 210.790664, 232.671334, 76.500000",
+          "BTTSnapAreaFrame" : "{{119, 159}, {460, 233}}",
+          "BTTSnapAreaHighlightColor" : "92.624286, 122.650396, 161.665578, 56.099998",
+          "BTTSnapAreaPictogramDistanceFromLeft" : 0.10000000149011612,
+          "BTTSnapAreaPictogramDistanceFromBottom" : 0.10000000149011612,
+          "BTTSnapAreaPictogramSize" : 0.69999998807907104,
+          "BTTSnapAreaPreviewFrame" : "{{0, 48}, {1000, 582}}",
+          "BTTSnapAreaBorderWidth" : 4,
+          "BTTSnapAreaCornerRadius" : 20,
+          "BTTSnapAreaUUID" : "D624D47A-1921-4CA5-A230-5F9C575BA8C9",
+          "BTTSnapAreaShowsForApps" : [
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/XtraFinderLoader.app",
+              "BTTSnapAreaAppName" : "XtraFinderLoader"
+            },
+            {
+              "BTTSnapAreaAppBundleIdentifier" : "\/System\/Library\/CoreServices\/Finder.app",
+              "BTTSnapAreaAppName" : "Finder"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
