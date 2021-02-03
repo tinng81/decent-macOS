@@ -35,14 +35,14 @@ You can download Karabiner-Elements from [official site](https://karabiner-eleme
    ```shell
    git clone https://github.com/tinng81/decent-macOS.git && cd karabiner
    ```
-2. Generate config files
+2. Generate config files (if modified)
    
    ```shell
    # Example for ERB template
    ruby ./lib/erb2json.rb < ./template/function_keys_v2.erb > function_keys_v2.json
    
    # Example for normal script
-   ruby ./app_launcher_v4.rb > app_launcher.json
+   ruby ./template/app_launcher_v4.rb > app_launcher_v4.json
    ```
 3. Copy to your local Karabiner config directory
    
@@ -54,9 +54,23 @@ You can download Karabiner-Elements from [official site](https://karabiner-eleme
 
 ## Features
 
+### remap_wireless_diag.json (new)
+
+> Remap all system diagnostics to Function Keys (F17, F18, F19)
+
+[![Remap all system diagnostics to Function Keys](../docs/assets/karabiner_remap_diagnostics.gif)](https://github.com/tinng81/decent-macOS/docs/karabiner_remap_diagnostics.gif)
+
+### tilde_spotlight.json (new)
+
+> Double-click grave-and-title-accent key mapped to CMD+Space, otherwise send normal accent key
+
 ### app_launcher_v4.rb
 
-> Quick launch any application via a shortcut. NOTE: must enable Hyper key first
+> Quick launch any application via a shortcut Hyper + O. NOTE: must enable caps_lock_hyper_key first
+
+### caps_lock_hyper_key.json 
+
+> Using Caplocks as a Hyper key for CMD + CTRL + ALT + SHIFT (⌘ + ⌃ + ⌥ + ⇧) and toggle Caplock by Shift + Caplock
 
 ### function_keys_v2.erb
 

@@ -112,6 +112,7 @@ module Karabiner
 
     :visual_studio_code => [
       '^com\.microsoft\.VSCode$',
+      '^com\.visualstudio\.oss$',
     ],
 
     :vnc => [
