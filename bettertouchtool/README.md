@@ -1,6 +1,6 @@
 # BetterTouchTool
 
-> BetterTouchTool is is a great, feature packed app that allows you to customize various input devices on your Mac. Currently BetterTouchTool supports:
+> BetterTouchTool is a great, feature packed app that allows you to customize various input devices on your Mac. Currently BetterTouchTool supports:
 > 
 > - Macbook Trackpad
 > - Magic Trackpad 1 & 2

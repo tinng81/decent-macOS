@@ -1,14 +1,26 @@
 # Decent macOS
 
-[![LICENSE](/docs/assets/license.svg)](https://opensource.org/licenses/MIT)
+[![LICENSE](./docs/assets/license.svg)](https://opensource.org/licenses/MIT)
 
 > Not awesome but a variety of decent enough macOS advanced setting from 3rd party applications
 
-## Features
+## Featuring Apps
 
-- [Espanso](https://github.com/federico-terzi/espanso) - A cross-platform Text Expander written in Rust.
+![Open-Source Software][OSS Icon] means **open source**, click to open **open source** repo
 
-- [Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements) - A powerful utility for keyboard customization on macOS Sierra or later.
+![Freeware][Freeware Icon] means **free** to use, or **free** personal license
+
+![Paid/In-app Purchase][Paid Icon] means **paid** or has limited functions with **in-app purchases**
+
+- [Alfred](./alfred/README.md) – An award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more. Search your Mac and the web, and be more productive with custom actions to control your Mac. [![Paid/In-app Purchases][Paid Icon]](https://www.alfredapp.com/)
+
+- [BetterTouchTool](./bettertouchtool/README.md) – A great, feature packed app that allows you to customize various input devices on your Mac. [![Paid/In-app Purchases][Paid Icon]](https://folivora.ai/) 
+
+- [Karabiner-Elements](./karabiner/README.md) - A powerful utility for keyboard customization on macOS Sierra or later. [![Open-Source Software][OSS Icon]](https://github.com/pqrs-org/Karabiner-Elements) [![Freeware][Freeware Icon]]()
+
+- [Espanso](./espanso/README.md) - A cross-platform Text Expander written in Rust. [![Open-Source Software][OSS Icon]](https://github.com/federico-terzi/espanso) [![Freeware][Freeware Icon]]()
+
+---
 
 ## License
 
@@ -34,6 +46,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[oss icon]: /docs/assets/oss.svg "Open Source Software"
-[freeware icon]: /docs/assets/free.svg "Freeware"
-[app-store icon]: /docs/assets/app-store.svg "App Store Software"
+[OSS Icon]: ./docs/assets/oss.svg "Open Source Software"
+[Freeware Icon]: ./docs/assets/free.svg "Freeware"
+[Paid Icon]: ./docs/assets/paid.svg "Paid/In-app Purchases"
