@@ -43,21 +43,39 @@ You can try Alfred 4 from [official site](https://www.alfredapp.com/) and its es
 
 ## Features
 
-### Mac symbols.alfredsnippets [Download](https://github.com/tinng81/decent-macOS/alfred/snippets/Mac\ symbols.alfredsnippets)
+---
+
+## Snippets
+
+### Mac symbols.alfredsnippets  |  [Download](https://github.com/tinng81/decent-macOS/tree/master/alfred/snippets/Mac%20symbols.alfredsnippets)
 
 > Native macOS symbols such as ALT SHIFT CMD CTRL Up Down (⌥ ⇪ ⌘ ⌃ ⌫ ↓ ↑)
 
-### Math Symbols.alfredsnippets [Download](https://github.com/tinng81/decent-macOS/alfred/snippets/Math\ Symbols.alfredsnippets)
+### Math Symbols.alfredsnippets  |  [Download](https://github.com/tinng81/decent-macOS/tree/master/alfred/snippets/Math%20Symbols.alfredsnippets)
 
 > LaTeX-like syntax `\\` for arithmetics (½ ≤ ℃), Latin/Greek symbols (∮ π), superscript and ssubscript
 
-### Currency Symbols.alfredsnippets [Download](https://github.com/tinng81/decent-macOS/alfred/snippets/Currency\ Symbols.alfredsnippets)
+### Currency Symbols.alfredsnippets  |  [Download](https://github.com/tinng81/decent-macOS/tree/master/alfred/snippets/Currency%20Symbols.alfredsnippets)
 
 > Common currencies such as USD $, EUR €, GBP £, KRW ₩
 
-### Emoji Pack.alfredsnippets [Download](https://github.com/tinng81/decent-macOS/alfred/snippets/Emoji\ Pack.alfredsnippets)
+### Emoji Pack.alfredsnippets  |  [Download](https://github.com/tinng81/decent-macOS/tree/master/alfred/snippets/Emoji%20Pack.alfredsnippets)
 
 > GitHub, Twitter compatible emoji pack
+
+---
+
+## Workflows
+
+Most of the workflows are configured with a hotkey using Hyper key from the [Karabiner setting](https://github.com/tinng81/decent-macOS/tree/master/karabiner#caps_lock_hyper_keyjson).
+
+### Menu-Bar-Search  |  [Download](https://github.com/tinng81/decent-macOS/tree/master/alfred/snippets/Menu%20Bar%20Search.alfredworkflow)  |  [Repo](https://github.com/BenziAhamed/Menu-Bar-Search)
+
+> Quickly search the menu bar of frontmost application and activate functions with hotkey `Hyper + m` or keyword `m`
+
+### Open With VSCodium  |  [Download](https://github.com/tinng81/decent-macOS/tree/master/alfred/snippets/Open%20with%20VSCodium.alfredworkflow)
+
+> Open file from fuzzy search in Visual Code Codium with `code` command or as a File Action from selected file
 
 ## Disclaimer
 
