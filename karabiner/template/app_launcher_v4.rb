@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 # Parameters
+# ruby app_launcher_v4.rb > app_launcher_v4.json
 
 PARAMETERS = {
   :simultaneous_threshold_milliseconds => 1000,
@@ -18,15 +19,14 @@ def main
     'maintainers' => ['tinng81'],
     'rules' => [
       {
-        'description' => 'App Launcher v4 (rev 12)',
+        'description' => 'App Launcher v4 (rev 13)',
         'manipulators' => [
-          generate_launcher_mode('g', [{ 'shell_command' => "open -a 'GitHub Desktop.app'" }]),
-          generate_launcher_mode('i', [{ 'shell_command' => "open -a 'iTunes.app'" }]),
+          generate_launcher_mode('i', [{ 'shell_command' => "open -a 'Music.app'" }]),
           generate_launcher_mode('a', [{ 'shell_command' => "open -a 'Activity Monitor.app'" }]),
           generate_launcher_mode('d', [{ 'shell_command' => "open -a 'Disk Utility.app'" }]),
-          generate_launcher_mode('v', [{ 'shell_command' => "open -a 'Visual Studio Code.app'" }]),
+          generate_launcher_mode('v', [{ 'shell_command' => "open -a 'VSCodium.app'" }]),
           generate_launcher_mode('t', [{ 'shell_command' => "open -a 'iTerm.app'" }]),
-          generate_launcher_mode('m', [{ 'shell_command' => "open -a 'Airmail 3.app'" }]),
+          generate_launcher_mode('m', [{ 'shell_command' => "open -a 'Spark.app'" }]),
           generate_launcher_mode('c', [{ 'shell_command' => "open -a 'Calendar.app'" }]),
           generate_launcher_mode('f', [{ 'shell_command' => "open -a 'Firefox.app'" }]),
           generate_launcher_mode('s', [{ 'shell_command' => "open -a 'Safari.app'" }]),
@@ -35,6 +35,7 @@ def main
           generate_launcher_mode('2', [{ 'shell_command' => "open -a 'Microsoft Word.app'" }]),
           generate_launcher_mode('3', [{ 'shell_command' => "open -a 'Microsoft Excel.app'" }]),
           generate_launcher_mode('4', [{ 'shell_command' => "open -a 'Microsoft PowerPoint.app'" }]),
+          generate_launcher_mode('5', [{ 'shell_command' => "open -a 'Microsoft Teams.app'" }]),
           
           generate_launcher_mode('5', [{ 'shell_command' => "open -a 'Keynote.app'" }]),
           generate_launcher_mode('6', [{ 'shell_command' => "open -a 'Numbers.app'" }]),
