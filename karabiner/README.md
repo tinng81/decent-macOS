@@ -60,6 +60,11 @@ You can download Karabiner-Elements from [official site](https://karabiner-eleme
 
 [![Remap all system diagnostics to Function Keys](../docs/assets/karabiner_remap_diagnostics.gif)](https://github.com/tinng81/decent-macOS/docs/assets/karabiner_remap_diagnostics.gif)
 
+### vi_mode.json (new)
+
+> System-wide options holding keyword `f` to enter Vi Navigation mode with `HJKL` and similarly `fd` for `Home/PageDown/PageUp/End`. Also support Visual `v` text selection mode.
+
+#
 ### tilde_spotlight.json (new)
 
 > Double-click grave-and-title-accent key mapped to CMD+Space, otherwise send normal accent key
