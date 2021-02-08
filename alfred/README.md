@@ -47,19 +47,19 @@ You can try Alfred 4 from [official site](https://www.alfredapp.com/) and its es
 
 ## Snippets
 
-### Mac symbols.alfredsnippets  |  [Download](https://github.com/tinng81/decent-macOS/tree/master/alfred/snippets/Mac%20symbols.alfredsnippets)
+### Mac symbols.alfredsnippets  |  [Download](./alfred/snippets/Mac%20symbols.alfredsnippets)
 
 > Native macOS symbols such as ALT SHIFT CMD CTRL Up Down (⌥ ⇪ ⌘ ⌃ ⌫ ↓ ↑)
 
-### Math Symbols.alfredsnippets  |  [Download](https://github.com/tinng81/decent-macOS/tree/master/alfred/snippets/Math%20Symbols.alfredsnippets)
+### Math Symbols.alfredsnippets  |  [Download](./alfred/snippets/Math%20Symbols.alfredsnippets)
 
 > LaTeX-like syntax `\\` for arithmetics (½ ≤ ℃), Latin/Greek symbols (∮ π), superscript and ssubscript
 
-### Currency Symbols.alfredsnippets  |  [Download](https://github.com/tinng81/decent-macOS/tree/master/alfred/snippets/Currency%20Symbols.alfredsnippets)
+### Currency Symbols.alfredsnippets  |  [Download](./alfred/snippets/Currency%20Symbols.alfredsnippets)
 
 > Common currencies such as USD $, EUR €, GBP £, KRW ₩
 
-### Emoji Pack.alfredsnippets  |  [Download](https://github.com/tinng81/decent-macOS/tree/master/alfred/snippets/Emoji%20Pack.alfredsnippets)
+### Emoji Pack.alfredsnippets  |  [Download](./alfred/snippets/Emoji%20Pack.alfredsnippets)
 
 > GitHub, Twitter compatible emoji pack
 
@@ -67,15 +67,31 @@ You can try Alfred 4 from [official site](https://www.alfredapp.com/) and its es
 
 ## Workflows
 
-Most of the workflows are configured with a hotkey using Hyper key from the [Karabiner setting](https://github.com/tinng81/decent-macOS/tree/master/karabiner#caps_lock_hyper_keyjson).
+Most of the workflows are configured with a hotkey using Hyper key from the [Karabiner setting](./karabiner#caps_lock_hyper_keyjson).
 
-### Menu-Bar-Search  |  [Download](https://github.com/tinng81/decent-macOS/tree/master/alfred/snippets/Menu%20Bar%20Search.alfredworkflow)  |  [Repo](https://github.com/BenziAhamed/Menu-Bar-Search)
+### Switch Keyboard Language  |  [Download](./alfred/workflows/Switch%20Keyboard%20Language.alfredworkflow)  |  [Repo](https://github.com/andynil/alfred-switch-keyboard-language)
+
+> Quickly define and change macOS keyboard input language, came with English/Australian/German/Russian/Korean/Vietnamese language bundled
+
+[![Switch Keyboard Language workflow preview](../docs/assets/alfred_switch_keyboard_language.gif)](./docs/assets/alfred_switch_keyboard_language.gif)
+
+### Show Network Info  |  [Download](./alfred/workflows/Show%20Network%20Info.alfredworkflow)  |  [Repo](https://github.com/jeppestaerk/alfred-show-network-info)
+
+> Show local/global IP addresses and quickly scan local devices with arp
+
+[![Show Network Info workflow preview](../docs/assets/alfred_show_network_info.gif)](./docs/assets/alfred_show_network_info.gif)
+
+### Menu-Bar-Search  |  [Download](./alfred/workflows/Menu%20Bar%20Search.alfredworkflow)  |  [Repo](https://github.com/BenziAhamed/Menu-Bar-Search)
 
 > Quickly search the menu bar of frontmost application and activate functions with hotkey `Hyper + m` or keyword `m`
 
-### Open With VSCodium  |  [Download](https://github.com/tinng81/decent-macOS/tree/master/alfred/snippets/Open%20with%20VSCodium.alfredworkflow)
+[![Menu Bar Search workflow preview](../docs/assets/alfred_menu_bar_search.gif)](./docs/assets/alfred_menu_bar_search.gif)
+
+### Open With VSCodium  |  [Download](./alfred/workflows/Open%20with%20VSCodium.alfredworkflow)
 
 > Open file from fuzzy search in Visual Code Codium with `code` command or as a File Action from selected file
+
+[![Open With VSCodium workflow preview](../docs/assets/alfred_open_with_vscodium.gif)](./docs/assets/alfred_open_with_vscodium.gif)
 
 ## Disclaimer
 
