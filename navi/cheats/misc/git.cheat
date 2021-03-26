@@ -1,0 +1,59 @@
+% git, code
+
+# 覆盖提交
+git commit --amend
+
+# 查找丢失的提交记录
+git reflog
+
+# 统计某个用户的提交次数和行数
+git log --author=<name> --pretty=tformat: --numstat | awk '{ add += $1 ; subs += $2 ; loc += $1 - $2 } END { printf "added lines: %s removed lines : %s total lines: %s\n",add,subs,loc }'
+
+# 统计所有人的提交次数
+git shortlog -s -n
+
+# 删除远程tag
+git push origin :refs/tags/<tag>
+
+# 删除远程分支
+git push origin :<remote_branch>
+
+$ remote_branch: git ls-remote --- --column 1
+
+
+# 生成两个提交之间的patch(包含两个commit)
+git format-patch <commit1>..<commit2>
+
+# 生成某个提交的patch
+git format-patch -1 <commit>
+
+$ commit: git log -20 --oneline --- --column 0
+
+# 检查patch文件
+git apply --stat <patch>
+
+
+# 检查patch文件是否可以使用
+git apply --check <patch>
+
+
+# 使用patch文件
+git am -s < <patch>
+
+$ patch: find . -name '*.patch'
+
+
+# 查看当前分支结构
+git log --graph --decorate --oneline --simplify-by-decoration --all
+
+
+# 查看当前分支结构(gitk)
+gitk --simplify-by-decoration --all
+
+
+# 查看总提交次数
+git rev-list HEAD --count
+
+
+# 查看某个用户提交汇总
+git log --author="<name>" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }'
