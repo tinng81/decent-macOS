@@ -1,0 +1,31 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/c99.md
+
+% ros, ros
+
+# A tool inspecting packages/stacks
+rospack/rosstack
+
+# Changes directories to a package or stack
+roscd
+
+# Lists package or stack information
+rosls
+
+# Creates a new ROS package
+roscreate-pkg
+
+# Creates a new ROS stack
+roscreate-stack
+
+# Installs ROS package system dependencies
+rosdep
+
+# Builds a ROS package
+rosmake
+
+# Displays a errors and warnings about a running ROS system or launch
+roswtf
+
+# Displays package structure and dependencies
+rxdeps
