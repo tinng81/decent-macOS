@@ -100,6 +100,41 @@
           ]
         }
       ]
+    },
+    {
+      "description": "Vim-like Escape shortcuts J-K",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "j"
+              },
+              {
+                "key_code": "k"
+              }
+            ],
+            "simultaneous_options": {
+              "key_down_order": "insensitive",
+              "key_up_order": "insensitive"
+            },
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "escape"
+            }
+          ],
+          "parameters": {
+            "basic.simultaneous_threshold_milliseconds": 500
+          }
+        }
+      ]
     }
   ]
 }
