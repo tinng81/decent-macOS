@@ -1,8 +1,29 @@
 ; This has been extracted from
 ; https://github.com/tldr-pages/tldr/blob/master/pages/common/c99.md
 
-% catkin, wstool, rosdep, ros
+% catkin, cmake-args, ros
 
+# Initialize a workspace with a default layout (src/build/devel) in the current directory:
+catkin init
 
+# Extend workspace to merge devel with pre-built binary 
+catkin config --extend /opt/ros/melodic
 
+# Make Release Flag
+catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release
+
+# Merge Devel Flag
+catkin config --merge-devel
+
+# Catkin build all packages
+catkin build
+
+# Catkin build specific package
+catkin build <package>
+
+# Blow away the build, devel, and install spaces
+catkin clean
+
+# Clean all
+catkin clean --yes
 
