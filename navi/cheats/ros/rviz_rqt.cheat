@@ -1,0 +1,46 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/c99.md
+
+% ros, ros
+
+# Displays a errors and warnings about a running ROS system or launch
+roswtf
+
+# Displays package structure and dependencies
+rxdeps
+
+# Displays a graph of the ROS nodes that are currently running
+rxgraph
+
+# A tool for plotting data from one or more ROS topicfields using matplotlib.
+rxgraph
+
+# To graph the data in dierent plots:
+rxplot /<topic1>/<field1> /<topic2>/<field2>
+
+# To graph the data all on the same plot:
+rxplot /<topic1>/<field1>,/<topic2>/<field2>
+
+# To graph multiple elds of a message:
+rxplot /<topic1>/<field1:field2:field3>
+
+# Visualizing, inspecting, and replaying histories (bagfiles) of ROS messages.
+rxbag
+
+# A tool for displaying and ltering messages published on rosout.
+rxconsole
+
+# A tool to display and filtering messages published on rosout.
+rqt_console
+
+# A tool for visualizing, inspecting, and replaying bag files.
+rqt_bag <file>
+
+# Change the logger level of ROS nodes. This will increase or decrease the information they log to the screen and rqt console
+rqt_logger_level
+
+# Display graphs of running ROS nodes with connecting topics 
+rqt-graph
+
+# Display package dependancies respectively
+rqt-dep

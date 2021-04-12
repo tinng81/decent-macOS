@@ -1,0 +1,99 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/c99.md
+
+% rosparam, rosservice, rosnode, visualize, ros
+
+# A tool inspecting packages/stacks
+rospack/rosstack
+
+# Changes directories to a package or stack
+roscd <package>
+
+# Lists package or stack information
+rosls
+
+# Creates a new ROS package
+roscreate-pkg
+
+# Creates a new ROS stack
+roscreate-stack
+
+# Installs ROS package system dependencies
+rosdep
+
+# Update ros dep Do NOT run rosdep update with sudo.
+rosdep update
+
+# Installs all the packages in catkin space
+rosdep install --from-paths src --ignore-src \ --rosdistro=${ROS_DISTRO} -y
+
+wstool update
+
+# Add or changes one entry
+wstool set <repo_name> --git <repo_url> --version=<ROS_VERSION>
+
+# Builds a ROS package
+rosmake
+
+# A tool for visualizing the full tree of coordinate transforms.
+rosrun tf view frames
+
+# Run an executable in package
+rosrun <package> <executable>
+
+# Set a parameter.
+rosparam set
+
+# Get a parameter.
+rosparam get
+
+# Load parameters from a le.
+rosparam load
+
+# Dump parameters to a le.
+rosparam dump
+
+# Delete a parameter.
+rosparam delete
+
+# List parameter names.
+rosparam list
+
+# List all the parameters in a namespace:
+rosparam list /<namespace>
+
+# Setting a list with one as a string, integer, and float:
+rosparam set /<list>
+
+# Dump only the parameters in a specic namespace to le:
+rosparam dump dump.yaml /<namespace>
+
+# Print information about active services.
+rosservice list
+
+# Print the name of the node providing a service.
+rosservice <node>
+
+# Call the service with the given args.
+rosservice call
+
+# List the arguments of a service.
+rosservice args
+
+# Print the service type.
+rosservice type
+
+# Print the service ROSRPC uri.
+rosservice uri
+
+# Find services by service type.
+rosservice find
+
+# Call a service from the command-line:
+rosservice call /<service>
+
+# Pipe the output of rosservice to rossrv to view the srv type:
+rosservice type <service> | rossrv show
+
+# Display all services of a particular type:
+rosservice find rospy <package>/<service_type>

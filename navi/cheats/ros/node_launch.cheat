@@ -1,0 +1,28 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/c99.md
+
+% rosnode, roslaunch, ros
+
+# Test connectivity to node.
+rosnode ping
+
+# List active nodes.
+rosnode list
+
+# Print information about a node.
+rosnode info
+
+# List nodes running on a particular machine.
+rosnode machine <host>
+
+# Kills a running node.
+rosnode kill
+
+# Launch on a dierent port
+roslaunch -p <port> <package> <launch>
+
+# Launch a file in a package
+roslaunch <package> <launch>
+
+# Launch on the local nodes
+roslaunch --local <package> <launch

@@ -1,0 +1,55 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/c99.md
+
+% rosmsg, rostopic, ros
+
+# Display the elds in the msg.
+rosmsg show <message> 
+
+# Search for code using the msg. 
+rosmsg users
+
+# Display the msg md5 sum. 
+rosmsg md5 <message>
+
+# List all the messages in a package. 
+rosmsg package <package>
+
+# List all the packages with messages. 
+rosnode packages <message>
+
+# Echo the transform between a source frame and a target frame:
+rosrun tf tf echo <source frame> <target frame>
+
+# Display bandwidth used by topic.
+rostopic bw
+
+# Print messages to screen.
+rostopic echo
+
+# Clear the screen after each message is published:
+rostopic echo -c /<topic> <message_definition>/<message_type>
+
+# Display messages that match a given Python expression:
+rostopic echo --filter "m.data=='foo'" /<topic>
+
+# Display publishing rate of topic.
+rostopic hz <topic>
+
+# Print information about active topics.
+rostopic list
+
+# Publish data to topic.
+rostopic pub
+
+# Publish hello at 10 Hz:
+rostopic pub -r 10 /<topic> <message_definition>/<message_type> <message>
+
+# Print topic type.
+rostopic type <topic>
+
+# Find topics by type.
+rostopic find <topic>
+
+# Pipe the output of rostopic to rosmsg to view the msg type:
+rostopic type /<topic> | rosmsg show

@@ -1,0 +1,25 @@
+; This has been extracted from
+; https://github.com/tldr-pages/tldr/blob/master/pages/common/c99.md
+
+% rosbag, ros
+
+# Record a bag file with specified topics.
+rosbag record <topic>
+
+# Play content of one or more bag files.
+rosbag play
+
+# Replay several bag files at once:
+rosbag play <file> <file>
+
+# Replay all messages without waiting:
+rosbag play -a <bag> <file>
+
+# Compress one or more bag files.
+rosbag compress
+
+# Decompress one or more bag files.
+rosbag decompress
+
+# Filter the contents of the bag.
+rosbag filter
