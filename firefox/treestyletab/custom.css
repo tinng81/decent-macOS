@@ -345,6 +345,8 @@ tab-item.pinned {
     display: none !important;
 } */
 
+/* NOTE this make the context marker straight solid */
+/* tab-item:not(.active),
 .contextual-identity-firefox-container-1:not(.active),
 .contextual-identity-firefox-container-2:not(.active),
 .contextual-identity-firefox-container-3:not(.active),
@@ -352,7 +354,7 @@ tab-item.pinned {
 .contextual-identity-firefox-default:not(.active) {
     border-top-left-radius: 0px !important;
     border-bottom-left-radius: 0px !important;
-}
+} */
 
 tab-item.active.contextual-identity-firefox-container-1 {
     background: linear-gradient(to right, #3182ce, #0bc5ea) !important;
