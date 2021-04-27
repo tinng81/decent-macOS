@@ -132,7 +132,11 @@ tab-item.active .label {
 }
 
 tab-item.active {
-    background: var(--dark-3) !important;
+    background: linear-gradient(to right, #59C39D, #24c2bae5) !important;
+}
+
+tab-item:not(.active) {
+    border-right: solid 2px #24c2bae5 !important;
 }
 
 tab-item:not(.active).highlighted {
@@ -366,6 +370,7 @@ tab-item.active.contextual-identity-firefox-container-123 {
     background: linear-gradient(to right, #d53f8c, #9f7aea) !important;
 }
 
+tab-item.contextual-identity-firefox-default .contextual-identity-marker,
 tab-item.active.contextual-identity-firefox-default {
     background: linear-gradient(to right, #474747, #838288) !important;
 }
