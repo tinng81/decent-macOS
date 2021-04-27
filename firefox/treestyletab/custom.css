@@ -75,6 +75,22 @@ tab-item:not(.collapsed) {
     padding-bottom: 10px;
 }
 
+tab-item:not(.collapsed):not(.active).contextual-identity-firefox-container-1 {
+    border-right: solid 2px #0bc5ea !important;
+}
+
+tab-item:not(.collapsed):not(.active).contextual-identity-firefox-container-2 {
+    border-right: solid 2px#f56565 !important;
+}
+
+tab-item:not(.collapsed):not(.active).contextual-identity-firefox-container-3 {
+    border-right: solid 2px #38b2ac !important;
+}
+
+tab-item:not(.collapsed):not(.active).contextual-identity-firefox-container-123 {
+    border-right: solid 2px #9f7aea !important;
+}
+
 tab-item.collapsed {
     height: 0;
     margin: 0 !important;
@@ -264,7 +280,7 @@ tab-item:not(pinned) tab-closebox {
 /***********************************/
 
 .tab .favicon .favicon-default::before {
-    filter: var(--extension-icon-mask); // change for light theme
+    filter: var(--extension-icon-mask);
 }
 
 .tab[data-current-favicon-uri="undefined"] .favicon .favicon-default::before {
