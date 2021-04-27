@@ -375,3 +375,7 @@ tab-item.active.contextual-identity-firefox-default {
 #all-tabs {
     border: none !important;
 }
+
+#tabbar { 
+    scrollbar-width: none !important; 
+}
