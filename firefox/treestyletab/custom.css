@@ -1,6 +1,7 @@
 :root {
     --dark-0: #151d28;
     --dark-base: #192330;
+    --dark-dracula: rgba(68, 71, 90, 1);
     --dark-1: #233143;
     --dark-2: #2a3b51;
     --dark-3: #374e6c;
@@ -21,6 +22,7 @@
 :root.incognito {
     --dark-0: #1c0e34;
     --dark-base: #20103c;
+    --dark-dracula: rgba(68, 71, 90, 1);
     --dark-1: #2f1d4e;
     --dark-2: #38225d;
     --dark-3: #4a2d7b;
@@ -60,7 +62,7 @@
 
 :root,
 #background {
-    background: var(--dark-base) !important;
+    background: var(--dark-dracula) !important;
 }
 
 #all-tabs {
